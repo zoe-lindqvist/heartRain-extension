@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Heart Rain Extension",
+  "version": "1.0",
+  "description": "This extension will make hearts rain on your screen",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
