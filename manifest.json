@@ -1,8 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Heart Rain Extension",
+  "name": "❤️Heart Rain Extension",
   "version": "1.0",
   "description": "This extension will make hearts rain on your screen",
+  "icons": {
+    "16": "icons/heart.png",
+    "48": "icons/heart.png",
+    "128": "icons/heart.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
